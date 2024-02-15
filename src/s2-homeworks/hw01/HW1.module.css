@@ -1,0 +1,9 @@
+.hw1,
+pre {
+  font-family: "Montserrat", sans-serif;
+}
+.hw1 {
+  max-width: 1280px;
+  width: 100%;
+  margin: 20px auto;
+}
