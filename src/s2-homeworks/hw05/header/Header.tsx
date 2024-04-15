@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import { FC } from "react"
 import burgerIcon from "./burger.svg"
 import s from "./Header.module.css"
 import { useLocation } from "react-router-dom"

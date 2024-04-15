@@ -3,10 +3,16 @@
 }
 
 .hw {
+  padding: 0 70px;
 }
 
 .hwTitle {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.hwTitle + hr {
+  margin-bottom: 40px;
 }
