@@ -1,27 +1,62 @@
 .tech {
-    width: 50vw;
 }
 
 .developer {
-
 }
 
-.techHeader {
-    width: 50vw;
-}
-
-.developerHeader {
-
+.sortHeader {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
 }
 
 .row {
-    display: flex;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 17px;
 }
 
 .rowHeader {
-    display: flex;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 11px 17px 9px;
+  border-radius: 3px;
+}
+
+.loader {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 90px;
+  left: 30%;
+  animation-name: loader-anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgba(256, 256, 256, 0.75);
+}
 
+@keyframes loader-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
